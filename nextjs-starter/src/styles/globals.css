@@ -1,11 +1,9 @@
 body {
-
   margin: 0;
   width: 100vw;
   height: 100vh;
   font-weight: bold;
   background-color: beige;
-
 }
 
 ul{
@@ -68,7 +66,7 @@ a {
 
 .navbar__icons li {
   padding: 5px 12px;
-  text-align: center;
+  text-align: center;;
 }
 
 .Webcam {
