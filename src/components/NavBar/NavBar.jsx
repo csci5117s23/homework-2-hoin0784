@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from './NavBar.module.css'
-import { BsGithub, BsLinkedin } from 'react-icons/bs';
+// import { BsGithub, BsLinkedin } from 'react-icons/bs';
 
 export default function Navbar({UserButton}) {
   
