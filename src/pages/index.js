@@ -1,4 +1,3 @@
-import Head from 'next/head'
 
 // / - the root page is a basic splash page that says the name of app 
 

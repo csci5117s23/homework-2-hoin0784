@@ -3,9 +3,9 @@
 * Auto generated Codehooks (c) example
 * Install: npm i codehooks-js codehooks-crudlify
 */
-import {app,Datastore} from 'codehooks-js'
+import {app} from 'codehooks-js'
 import {crudlify} from 'codehooks-crudlify'
-import { date, object, string, boolean } from 'yup';
+import {  object, string, boolean } from 'yup';
 
 // import jwtDecode from 'jwt-decode';
 
