@@ -1,4 +1,4 @@
-import Layout from '@/components/Layout';
+import Layout from '@/components/NavBar/Layout';
 import { ClerkProvider, SignIn, SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import '@/styles/globals.css';
 

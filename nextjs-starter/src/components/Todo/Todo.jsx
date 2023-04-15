@@ -1,3 +1,4 @@
+import React from 'react';
 import { FaTrashAlt } from 'react-icons/fa';
 import styles from './Todo.module.css'
 

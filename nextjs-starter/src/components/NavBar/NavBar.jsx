@@ -1,17 +1,18 @@
 import Link from 'next/link';
+import styles from './NavBar.module.css'
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 
 export default function Navbar({UserButton}) {
   
   return (
     <header>
-      <nav className='navbar'>
+      <nav className={styles.navbar}>
 
         <Link href="/">
-          <img src="/UofM.jpeg" alt="MyPic" className='navbar__logo' />
+          <img src="/UofM.jpeg" alt="MyPic" className={styles.navbar__logo} />
         </Link>
 
-        <ul className='navbar__menu'>
+        <ul className={styles.navbar__menu}>
           <li>
             <Link href="/"> Home</Link>
           </li>
@@ -29,14 +30,16 @@ export default function Navbar({UserButton}) {
           </li>
         </ul>
         
-        <ul className='navbar__icons'>
+        <ul className={styles.navbar__icons}>
           <li>
-            <a href="https://github.com/csci5117s23/homework-2-hoin0784"><BsGithub /></a>
+            <Link href="https://github.com/csci5117s23/homework-2-hoin0784"><BsGithub /></Link>
           </li>
+
           <li>
-            <a href="https://www.linkedin.com/in/hoin-jang-896036215"><BsLinkedin /></a>
+            <Link href="https://www.linkedin.com/in/hoin-jang-896036215"><BsLinkedin /></Link>
           </li>
-          <li className='profile'>
+          
+          <li>
             {UserButton}
           </li>
         </ul>

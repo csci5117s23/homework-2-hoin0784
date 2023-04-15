@@ -5,16 +5,30 @@
   align-items: center;
   background-color: #f5f5f5;
   border-bottom: 1px solid #d1d1d1;
+  text-align: center;
 }
-.filters{
-  display:flex;
+.toggle {
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--color-text);
 }
-.filter{
-  font-size:1.4rem;
-  margin:0.3rem;
+
+.toggle:hover {
+  transform: scale(1.1);
+  color: var(--color-accent);
+}
+
+.filters {
+  display: flex;
+}
+
+.filter {
+  font-size: 1.4rem;
+  margin: 0.3rem;
   text-transform: capitalize;
   background-color: transparent;
-  color:#f16e03;
+  color: var(--color-accent);
   opacity: 0.8;
   font-weight: bold;
 }
@@ -30,3 +44,5 @@
   margin-top: 0.2rem;
   border: 1px solid var(--color-text);
 }
+
+

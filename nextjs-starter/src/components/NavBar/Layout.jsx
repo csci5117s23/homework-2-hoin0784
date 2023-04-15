@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Navbar from './NavBar';
 
+
 export default function Layout({children,UserButton}) {
   return (
     <>
