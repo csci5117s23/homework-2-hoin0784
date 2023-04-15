@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from './NavBar.module.css'
-// import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
 
 export default function Navbar({UserButton}) {
   
@@ -31,13 +31,13 @@ export default function Navbar({UserButton}) {
         </ul>
         
         <ul className={styles.navbar__icons}>
-          {/* <li>
+          <li>
             <Link href="https://github.com/csci5117s23/homework-2-hoin0784"><BsGithub /></Link>
           </li>
 
           <li>
             <Link href="https://www.linkedin.com/in/hoin-jang-896036215"><BsLinkedin /></Link>
-          </li> */}
+          </li>
           
           <li>
             {UserButton}
