@@ -11,8 +11,7 @@ Please fill out all of the following sections to help us grade your submission:
 
 ## Link to Site
 
-I deployed my website but it failed to reload
-<https://fascinating-pie-7f1dc1.netlify.app//>
+<https://5117-homework2.netlify.app/>
 
 ## Challenge Task
 
